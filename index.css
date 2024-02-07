@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:#f5b3cd;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  max-width: 15em;
+  max-height: 15em;
+}
+
+.text{
+ color: rgb(255, 0, 119);
+ font-weight: bolder;
+}
+
+.yes,.no{
+  padding: 1em 2em;
+  margin: 0.14em;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.ycolor{
+  background-color: rgba(89, 255, 0, 0.736);
+}
+
+.ncolor{
+  background-color: red;
+}
+
+.hidden{
+  display: none;
+}
