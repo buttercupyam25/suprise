@@ -5,6 +5,7 @@ const buttons = document.querySelector(".buttoncontainer");
 const yesButton = document.querySelector(".yes");
 const noButton = document.querySelector(".no");
 const yesimg = document.querySelector(".img");
+const music = document.getElementById("music");
 
 const maxImage = 5;
 
@@ -62,3 +63,6 @@ function resizeYesButton() {
    noButton.innerHTML = generateMessage(noCount);
  }
 
+music.addEventListener("play", function() {
+  music.style.display ="none";
+});
